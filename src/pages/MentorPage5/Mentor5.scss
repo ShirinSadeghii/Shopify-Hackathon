@@ -1,8 +1,8 @@
-
+@use "../../styles/partials/global" as * ;
 
 .mentorchat {
     padding: 16px;
-    background-color: lightblue;
+    background-color: $White;
 
     &__heading {
         display: flex;
@@ -21,9 +21,9 @@
     }
 
     &__icon1 {
-        border: 1px solid black;
+        border: 0px ssolid black;
         padding: 1rem;
-        background-color: lightgreen;
+        background-color: $TertiaryGreen;
     }
 
     &__h1 {
@@ -31,9 +31,9 @@
     }
 
     &__icon2 {
-        border: 1px solid black;
+        border: 0px solid black;
         padding: 1rem;
-        background-color: lightgreen;
+        background-color: $TertiaryGreen;
     }
 
     &__categories {
@@ -45,6 +45,7 @@
     &__category {
         border: 1px solid black;
         padding: 1rem;
+        background-color: $Grey;
 
     }
 
@@ -92,7 +93,7 @@
         font-weight: 450;
         line-height: 140%;
         letter-spacing: -0.89px;
-        background-color: rgb(67, 192, 67);
+        background-color: $SecondaryGreen;
     }
 
     &__message2 {
@@ -105,7 +106,7 @@
         font-weight: 450;
         line-height: 140%;
         letter-spacing: -0.89px;
-        background-color: rgb(8, 191, 8);
+        background-color: $TertiaryGreen;
     }
 
     &__time {
@@ -129,9 +130,13 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
-        background-color: #c5bfbf;
+        background-color: #D9D9D9;
         height: 100px;
         width: 100%;
+    }
+
+    &__cardname {
+        padding-top: 10px;
     }
 
     &__form {
@@ -140,7 +145,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background: var(--secondary-tertiary, #DAEDB5);
+        background: $TertiaryGreen;
     }
 
     &__newmessage {
@@ -149,15 +154,18 @@
 
     }
 
-    &__message {
+    &__input {
         padding: 1rem;
         border: none;
+        background: $TertiaryGreen;
+        width: 90%;
+
     }
 
     &__icon3 {
         // border: 1px solid black;
         padding: 1rem;
-        background-color: lightgreen;
+        background-color: $Interactivity;
     }
 
     &__btn {
