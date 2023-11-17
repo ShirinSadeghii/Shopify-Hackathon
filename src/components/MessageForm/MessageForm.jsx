@@ -3,7 +3,7 @@ import './MessageForm.scss';
 function MessageForm() {
     return(
         <div className='message'>
-            <div className='message__box'>
+            <div className='step__box'>
                 <span >Step 3</span>
             </div>
             <h2 className='message__title'>Message to your mentors</h2>
