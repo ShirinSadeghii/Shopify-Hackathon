@@ -2,6 +2,10 @@ import '../MentorPage5/Mentor5.scss'
 import Icon1 from '../../assets/Icons/call-24.svg'
 import Icon2 from '../../assets/Icons/calendar-24.svg'
 import Icon3 from '../../assets/Icons/send-24.svg'
+import Icon4 from '../../assets/Icons/ShipApp_icon.png'
+import Icon5 from '../../assets/Icons/itay.jpg'
+import Icon6 from '../../assets/Icons/brauer.jpg'
+import { Link } from 'react-router-dom'
 import { useState } from 'react'
 
 function MentorPage5() {
@@ -20,7 +24,7 @@ function MentorPage5() {
 
         setTimeout(() => {
             setMessages([...messages,    { text: newMessage, type: 'user' }, { text: 'This is a sample response.', type: 'other' }]);
-          }, 4500);
+          }, 2500);
   
         setNewMessage('');
       }
@@ -87,18 +91,24 @@ function MentorPage5() {
             <div className='mentorchat__cards'>
                 <div className='mentorchat__card'>
                     <span className='mentorchat__cardname'>Shipping App</span>
-                    <div className='mentorchat__image'></div>
+                    <div className='mentorchat__image'>
+                        <img className='mentorchat__icon4' src={Icon4} alt="Icon4" />
+                    </div>
                 </div>
 
                 <div className='mentorchat__card'>
                     <span className='mentorchat__cardname'>Slashcard</span>
-                    <div className='mentorchat__image'></div>
+                    <div className='mentorchat__image'>
+                        <img className='mentorchat__icon5' src={Icon5} alt="Icon5" />
+                    </div>
                 </div>
 
 
                 <div className='mentorchat__card'>
                     <span className='mentorchat__cardname'>Slashcard</span>
-                    <div className='mentorchat__image'></div>
+                    <div className='mentorchat__image'>
+                    <img className='mentorchat__icon6' src={Icon6} alt="Icon6" />
+                    </div>
                 </div>
             </div>
 
