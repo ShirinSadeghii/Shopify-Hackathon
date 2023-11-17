@@ -8,7 +8,7 @@ function MentorPage3() {
              <NavBar/>
              <div className='mentor'>
                 <MessageForm />
-                <Buttons />
+                <Buttons currentPage="match3" />
              </div>
         </div>
        

@@ -14,49 +14,50 @@ const handleClick = (buttonName) => {
     return (
         <>
         <div>
-            <div className="">
-                <button className={showClicked['Accounting'] ? "active" : ""} 
+        <p className="mentor__sub-title">Which areas would you like to get mentored in?</p>
+            <div className="click__container">
+                <button className={showClicked['Accounting'] ? "active" : "not-active"} 
                     onClick={() => handleClick('Accounting')}>Accounting</button>
-                <button className={showClicked['Legal']  ? "active" : ""} 
+                <button className={showClicked['Legal']  ? "active" : "not-active"} 
                     onClick={() => handleClick('Legal')}>Legal</button>
-                <button className={showClicked['Marketing'] ? "active" : ""} 
+                <button className={showClicked['Marketing'] ? "active" : "not-active"} 
                     onClick={() => handleClick('Marketing')}>Marketing</button>
             </div>
-            <div>
-                <button className={showClicked['Shipping'] ? "active" : ""} 
+            <div className="click__container">
+                <button className={showClicked['Shipping'] ? "active" : "not-active"} 
                     onClick={() => handleClick('Shipping')}>Shipping</button>
-                <button className={showClicked['Development'] ? "active" : ""} 
+                <button className={showClicked['Development'] ? "active" : "not-active"} 
                     onClick={() => handleClick('Development')}>Development</button>
-                <button className={showClicked['Logistics'] ? "active" : ""} 
+                <button className={showClicked['Logistics'] ? "active" : "not-active"} 
                     onClick={() => handleClick('Logistics')}>Logistics</button>
-            </div>
+            </div> 
         </div>
-        <p>Any specific tools you'd like help with?</p>
+        <p className="mentor__sub-title">Any specific tools you'd like help with?</p>
         <div>
-            <div>
-                <button className={showClicked['Themes'] ? "active" : ""} 
+            <div className="click__container">
+                <button className={showClicked['Themes'] ? "active" : "not-active"} 
                     onClick={() => handleClick('Themes')}>Themes</button>
-                <button className={showClicked['Shipping2'] ? "active" : ""} 
+                <button className={showClicked['Shipping2'] ? "active" : "not-active"} 
                     onClick={() => handleClick('Shipping2')}>Shipping</button>
-                <button className={showClicked['Marketing2'] ? "active" : ""} 
+                <button className={showClicked['Marketing2'] ? "active" : "not-active"} 
                     onClick={() => handleClick('Marketing2')}>Marketing</button>
             </div>
-            <div>
-                <button className={showClicked['Theme Design'] ? "active" : ""} 
+            <div className="click__container">
+                <button className={showClicked['Theme Design'] ? "active" : "not-active"} 
                     onClick={() => handleClick('Theme Design')}>Theme Design</button>
-                <button className={showClicked['Development2'] ? "active" : ""} 
+                <button className={showClicked['Development2'] ? "active" : "not-active"} 
                     onClick={() => handleClick('Development2')}>Development</button>
-                <button className={showClicked['Logistics2'] ? "active" : ""} 
+                <button className={showClicked['Logistics2'] ? "active" : "not-active"} 
                     onClick={() => handleClick('Logistics2')}>Logistics</button>
             </div>
         </div>
-        <p>What Language are you comfortable with?</p>
-        <div>
-            <button className={showClicked['English'] ? "active" : ""} 
+        <p className="mentor__sub-title">What Language are you comfortable with?</p>
+        <div className="click__container">
+            <button className={showClicked['English'] ? "active" : "not-active"} 
                     onClick={() => handleClick('English')}>English</button>
-            <button className={showClicked['Spanish'] ? "active" : ""} 
+            <button className={showClicked['Spanish'] ? "active" : "not-active"} 
                     onClick={() => handleClick('Spanish')}>Spanish</button>
-            <button className={showClicked['French'] ? "active" : ""} 
+            <button className={showClicked['French'] ? "active" : "not-active"} 
                     onClick={() => handleClick('French')}>French</button>
         </div>
         </>

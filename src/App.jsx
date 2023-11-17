@@ -19,7 +19,7 @@ function App() {
           <Route path="/match2" element={<MentorPage2 />} />
           <Route path="/match3" element={<MentorPage3 />} />
           <Route path="/matches" element={<MentorPage4 />} />
-          <Route path="/chat" element={<MentorPage5 />} />
+          <Route path="/mentorchat" element={<MentorPage5 />} />
           <Route path="" element={<MentorPage6 />} />
           <Route path="" element={<MentorPage7 />} />
           <Route path="" element={<MentorPage8 />} />

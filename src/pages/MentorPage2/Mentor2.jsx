@@ -9,8 +9,7 @@ function MentorPage2() {
         <NavBar />
         <div className="mentor">
         <p className="mentor__step2Button">Step 2</p>
-        <p>Which areas would you like to get mentored in?</p>
-        <ClicksComponent />
+        <ClicksComponent currentPage="match2"/>
         <Buttons />
         </div>
     </div>
