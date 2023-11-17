@@ -1,0 +1,20 @@
+@use "../../styles/partials/global" as *;
+
+.container {
+    display: flex;
+    margin-block-start: 4rem;
+
+    &__btn {
+        width: 160px;
+        height: 50px;
+        border: none;
+        background-color: $White;
+        text-decoration: underline;
+
+        &--green {
+            background-color: $Interactivity;
+            text-decoration: none;
+            box-shadow: 4px 4px 4px rgba(0, 0 , 0, 0.2);
+        }
+    }
+}
