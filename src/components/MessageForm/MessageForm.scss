@@ -1,18 +1,7 @@
 @use "../../styles/partials/global" as *;
 
 .message {
-    &__box {
-        width: 62px;
-        height: 38px;
-        background-color: $PrimaryGreen;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: $White;
-        font-weight: 600;
-        box-shadow: 4px 4px 4px rgba(0, 0 , 0, 0.2);
-    }
-
+   
     &__text {
         height: 250px;
         width: 100%;
@@ -43,4 +32,16 @@
         padding: 10px 10px;
     }
     
+}
+
+.step__box {
+    width: 62px;
+    height: 38px;
+    background-color: $PrimaryGreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $White;
+    font-weight: 600;
+    box-shadow: 4px 4px 4px rgba(0, 0 , 0, 0.2);
 }
