@@ -14,10 +14,6 @@ function Buttons({ currentPage }) {
             backLink = '/match2';
             forwardLink = '/matches';
             break;
-        case 'matches':
-            backLink = '/match3';
-            forwardLink = '/mentorchat';
-            break;
         
         default:
             backLink = '/';
