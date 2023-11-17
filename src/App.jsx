@@ -20,7 +20,7 @@ function App() {
           <Route path='' element={<MentorPage2 />}></Route>
           <Route path='' element={<MentorPage3 />}></Route>
           <Route path='' element={<MentorPage4 />}></Route>
-          <Route path='' element={<MentorPage5 />}></Route>
+          <Route path='/mentorchat' element={<MentorPage5 />}></Route>
           <Route path='' element={<MentorPage6 />}></Route>
           <Route path='' element={<MentorPage7 />}></Route>
           <Route path='' element={<MentorPage8 />}></Route>
