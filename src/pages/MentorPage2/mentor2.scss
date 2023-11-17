@@ -1,4 +1,20 @@
 @use "../../styles/partials/global" as *;
 .mentorPage2Container {
   margin: auto 1.5rem;
+  &__step2Button {
+    width: 62px;
+    height: 38px;
+    background-color: $SecondaryGreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $White;
+    font-weight: 600;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+  }
+  &__buttonBox1 {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+  }
 }

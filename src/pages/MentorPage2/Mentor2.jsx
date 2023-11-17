@@ -2,9 +2,9 @@ import "../MentorPage2/mentor2.scss";
 function MentorPage2() {
   return (
     <div className="mentorPage2Container">
-      <p>Step 2</p>
+      <p className="mentorPage2Container__step2Button">Step 2</p>
       <p>Which areas would you like to get mentored in?</p>
-      <div>
+      <div className="mentorPage2Container__buttonBox1">
         <button>Accounting</button>
         <button>Legal</button>
         <button>Marketing</button>
