@@ -4,7 +4,7 @@
   &__step2Button {
     width: 62px;
     height: 38px;
-    background-color: $SecondaryGreen;
+    background-color: $PrimaryGreen;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,7 +14,17 @@
   }
   &__buttonBox1 {
     display: flex;
-    justify-content: space-between;
-    width: 60%;
+  }
+  &__button1 {
+    padding: 0.5rem;
+
+    &:focus {
+      background-color: $SecondaryGreen;
+      border: none;
+    }
+    // &:visited {
+    //   background-color: $SecondaryGreen;
+    //   border: none;
+    // }
   }
 }
