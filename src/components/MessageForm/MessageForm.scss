@@ -1,0 +1,46 @@
+@use "../../styles/partials/global" as *;
+
+.message {
+    &__box {
+        width: 62px;
+        height: 38px;
+        background-color: $PrimaryGreen;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $White;
+        font-weight: 600;
+        box-shadow: 4px 4px 4px rgba(0, 0 , 0, 0.2);
+    }
+
+    &__text {
+        height: 250px;
+        width: 100%;
+        border: 2px solid $Black;
+        resize: none;
+        box-sizing: border-box;
+        padding: 10px;
+    }
+
+    &__title {
+        font-size: 18px;
+    }
+
+    ::placeholder {
+        padding: 10px;
+        font-family: 'Inter';
+        color: $Black;
+        font-size: 13px;
+    }
+
+    &__container {
+        width: 100%;
+        height: 56px;
+        background-color: $TertiaryGreen;
+    }
+
+    &__default-comments {
+        padding: 10px 10px;
+    }
+    
+}
