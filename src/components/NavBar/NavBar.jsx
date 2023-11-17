@@ -3,7 +3,7 @@ import './NavBar.scss'
 function NavBar() {
     return (
         <nav className="nav">
-            <h1>Hello World</h1>
+            <div> logo will go here</div>
         </nav>
     )
 }
