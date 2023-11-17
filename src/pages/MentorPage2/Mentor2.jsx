@@ -1,3 +1,4 @@
+import "../MentorPage2/mentor2.scss";
 function MentorPage2() {
   return (
     <div className="mentorPage2Container">
@@ -29,6 +30,10 @@ function MentorPage2() {
         <button>English</button>
         <button>Spanish</button>
         <button>French</button>
+      </div>
+      <div>
+        <button>Back</button>
+        <button>Continue</button>
       </div>
     </div>
   );

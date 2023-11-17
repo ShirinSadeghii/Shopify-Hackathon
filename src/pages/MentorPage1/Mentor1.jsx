@@ -2,7 +2,7 @@ import "../MentorPage1/mentor1.scss";
 function MentorPage1() {
   return (
     <div className="mentorPage1Container">
-      {/* the wording below could use some grammar adjustments? */}
+      {/* could wording below use some grammar adjustments? */}
       <p className="mentorPage1Container__introText">
         Get matches in a few easy steps. We'll help ensure the mentors are
         relevant to you, and having upcoming availabilities
