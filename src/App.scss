@@ -1,11 +1,23 @@
+@use './styles/partials/global' as *;
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;900&family=Pacifico&display=swap');
 
-.button {
-  font-size: 34px;
- font-weight: 400;
- letter-spacing: 0em;
- color: white;
- box-shadow: 4px 4px 18px rgba(0, 0 , 0, 0.2);
- background-color: #64943E;
- font-family: 'roboto';
+
+.App {
+  font-family: 'Inter';
 }
+
+.mentor {
+  padding: 0 16px;
+}
+
+
+//test
+// .button {
+// font-size: 34px;
+//  font-weight: 400;
+//  letter-spacing: 0em;
+//  color: white;
+//  box-shadow: 4px 4px 18px rgba(0, 0 , 0, 0.2);
+//  background-color: #64943E;
+//  font-family: 'roboto';
+// }
