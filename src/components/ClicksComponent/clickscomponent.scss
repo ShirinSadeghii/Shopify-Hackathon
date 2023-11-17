@@ -1,0 +1,23 @@
+@use '../../styles/partials/global' as*;
+
+.not-active {
+    height: 40px;
+    background-color: $White;
+    margin-bottom: 10px;
+}
+.active {
+    background-color: $SecondaryGreen ;
+    border: none;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.click__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mentor__sub-title {
+    font-weight: 600;
+}
