@@ -2,8 +2,29 @@ import '../MentorPage5/Mentor5.scss'
 import Icon1 from '../../assets/Icons/call-24.svg'
 import Icon2 from '../../assets/Icons/calendar-24.svg'
 import Icon3 from '../../assets/Icons/send-24.svg'
+import { useState } from 'react'
 
 function MentorPage5() {
+
+    const [messages, setMessages] = useState([]);
+    const [newMessage, setNewMessage] = useState('');
+  
+    const sendMessage = (event) => {
+        event.preventDefault();
+      if (newMessage.trim() !== '') {
+        setMessages([
+          ...messages,
+          { text: newMessage, type: 'user' },
+        //   { text: 'This is a sample response.', type: 'other' } 
+        ]);
+
+        setTimeout(() => {
+            setMessages([...messages,    { text: newMessage, type: 'user' }, { text: 'This is a sample response.', type: 'other' }]);
+          }, 4500);
+  
+        setNewMessage('');
+      }
+}
     return (
     <>
         <div className='mentorchat'>
@@ -44,9 +65,24 @@ function MentorPage5() {
                 <div className='mentorchat__item'>
                     <div className='mentorchat__avatar'></div>
                     <div className='mentorchat__comment'>
-                        <p className='mentorchat__message2'>I have lots of experience here. Happy to help.</p>
+                        <p className='mentorchat__message'>I have lots of experience here. Happy to help.</p>
                     </div>
                 </div>
+
+                <div className="chat-messages">
+                    {messages.map((message, index) => (
+                    <div className='mentorchat__item'>
+                        {message.type === 'user' && <div className='mentorchat__avatar'></div>}
+                        <div className='mentorchat__comment'>
+                            <p key={index} className='mentorchat__message2'>{message.text}</p>
+                        </div>
+                        {message.type === 'other' && <div className='mentorchat__avatar'></div>}
+
+                </div>
+                ))}
+      </div>
+
+
             </div>
 
             <div className='mentorchat__cards'>
@@ -69,11 +105,16 @@ function MentorPage5() {
 
             <form className='mentorchat__form'>
                 <div className='mentorchat__newmessage'>
-                    <input className='mentorchat__message' type="text" id='name' placeholder='enter your message'/>
+                    <input className='mentorchat__input' 
+                    type="text" 
+                    id='name' 
+                    value={newMessage}
+                    onChange={(e) => setNewMessage(e.target.value)}
+                    placeholder="Type your message..."/>
                 </div>
 
                 <div className='mentorchat__button'>
-                    <button className='mentorchat__btn'>
+                    <button className='mentorchat__btn' onClick={sendMessage}>
                         <img className='mentorchat__icon3' src={Icon3} alt="icon3" />
                     </button>
                 </div>
