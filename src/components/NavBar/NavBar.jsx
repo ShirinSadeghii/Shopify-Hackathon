@@ -1,9 +1,10 @@
 import './NavBar.scss'
+import Logo from '../../assets/shopify-logo.png';
 
 function NavBar() {
     return (
         <nav className="nav">
-            <div> logo will go here</div>
+            <img className="nav-logo" src={Logo} alt="logo"></img>
         </nav>
     )
 }
