@@ -40,27 +40,26 @@ function MentorPage5() {
                 </div>
             </div>
 
-            <div className='mentorchat__categories'>
+            {/* <div className='mentorchat__categories'>
                 <span className='mentorchat__category'>Shipping</span>
                 <span className='mentorchat__category'>Logistics</span>
                 <span className='mentorchat__category'>Legal</span>
                 <span className='mentorchat__category'>Mentorship</span>
                 <span className='mentorchat__category'>Storefront Setup</span>
-            </div>
+            </div> */}
         
-
             <div className='mentorchat__chat'>
-                <div className='mentorchat__item'>
+                {/* <div className='mentorchat__item'>
                     <div className='mentorchat__avatar'></div>
                     <div className='mentorchat__comment'>
                         <p className='mentorchat__message'>What do you think you’re struggling with the most right now?</p>
                         <span className='mentorchat__time'>sent yesterday</span>
                     </div>
-                </div>
+                </div> */}
 
                 <div className='mentorchat__item2'>
                     <div className='mentorchat__comment'>
-                        <p className='mentorchat__message2'>Hey Pedro, thank you for accepting my chat request  🙏 Right now I’m struggling with [problem x, y, z]. Any advice?</p>
+                        <p className='mentorchat__message2'>Hi Pedro 🙏🏼 I’m looking for guidance on navigating international shipping for my coffee business.</p>
                         <span className='mentorchat__time'>sent 2 hours ago</span>
                     </div>
                     <div className='mentorchat__avatar'></div>
@@ -69,7 +68,7 @@ function MentorPage5() {
                 <div className='mentorchat__item'>
                     <div className='mentorchat__avatar'></div>
                     <div className='mentorchat__comment'>
-                        <p className='mentorchat__message'>I have lots of experience here. Happy to help.</p>
+                        <p className='mentorchat__message'> I have lots of experience here. Definitely checkout ShipStation for a 3rd party shipping app. If you need more help I worked with Marcos A. as a developer and Daniel C. as a content writer who can speak spanish and english 😊</p>
                     </div>
                 </div>
 
