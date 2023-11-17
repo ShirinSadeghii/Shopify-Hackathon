@@ -60,6 +60,9 @@
         gap: 1rem;
         margin-bottom: 1rem;
         margin-top: 1rem;
+        &:nth-child(even){
+            justify-content: flex-end;
+        }
     }
 
     &__item2 {
@@ -128,8 +131,9 @@
 
     &__card {
         display: flex;
-        flex-direction: row;
-        justify-content: center;
+        flex-direction: column;
+        // justify-content: center;
+        // align-content: center;
         background-color: #D9D9D9;
         height: 100px;
         width: 100%;
@@ -167,10 +171,31 @@
         padding: 1rem;
         background-color: $Interactivity;
     }
+    &__image {
+        display: flex;
+        justify-content: center;
+     }
+    &__icon4 {
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+    }
 
     &__btn {
         padding: 0;
         border: none;
+    }
+
+    &__icon5 {
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+    }
+
+    &__icon6 {
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
     }
 
 }
