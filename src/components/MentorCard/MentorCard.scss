@@ -13,11 +13,16 @@
   margin-bottom: 1rem;
 
   &__image {
-    background-color: black;
-
+    // background-color: black;
     margin: 0.5rem 0.5rem 0.5rem 0.5rem;
     height: 12rem;
-
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__image1 {
+    height: 12rem;
     border-radius: 20px;
   }
   &__infoContainer {
