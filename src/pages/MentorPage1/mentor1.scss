@@ -1,0 +1,28 @@
+@use "../../styles/partials/global" as *;
+
+.mentorPage1Container {
+  margin: auto 1.5rem;
+  &__introText {
+    // background-color: blue;
+  }
+  &__goalText {
+    font-weight: 800;
+  }
+  &__step1Button {
+    color: $White;
+    background-color: $SecondaryGreen;
+    width: 3rem;
+    padding: 0.4rem 0.3rem 0.4rem 0.3rem;
+  }
+  &__goalsContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  &__goalsContainer--option {
+    text-align: left;
+    height: 2rem;
+    margin: 0 0 0.5rem 0;
+    background-color: #ececec;
+    border: none;
+  }
+}
