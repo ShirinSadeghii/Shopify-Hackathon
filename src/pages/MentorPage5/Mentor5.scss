@@ -60,6 +60,9 @@
         gap: 1rem;
         margin-bottom: 1rem;
         margin-top: 1rem;
+        &:nth-child(even){
+            justify-content: flex-end;
+        }
     }
 
     &__item2 {
