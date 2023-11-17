@@ -1,0 +1,49 @@
+@use "../../styles/partials/global" as *;
+.mentorCardWrapper {
+  margin: auto 1rem;
+}
+.mentorsContainer {
+  display: flex;
+
+  flex-direction: column;
+  border-radius: 20px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+  border: ridge;
+  height: 20rem;
+  margin-bottom: 1rem;
+
+  &__image {
+    background-color: black;
+
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    height: 12rem;
+
+    border-radius: 20px;
+  }
+  &__infoContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+  }
+  &__box1 {
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    font-size: 0.8rem;
+  }
+  &__sendButton {
+    background-color: $Interactivity;
+    height: 2.5rem;
+    border: none;
+    color: $White;
+    font-size: 0.8rem;
+  }
+  &__box2 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    width: 43%;
+    font-size: 0.8rem;
+  }
+}
