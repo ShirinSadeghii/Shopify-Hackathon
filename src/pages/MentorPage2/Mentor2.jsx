@@ -5,8 +5,8 @@ function MentorPage2() {
       <p className="mentorPage2Container__step2Button">Step 2</p>
       <p>Which areas would you like to get mentored in?</p>
       <div className="mentorPage2Container__buttonBox1">
-        <button>Accounting</button>
-        <button>Legal</button>
+        <button className="mentorPage2Container__button1">Accounting</button>
+        <button className="mentorPage2Container__button1">Legal</button>
         <button>Marketing</button>
       </div>
       <div>
