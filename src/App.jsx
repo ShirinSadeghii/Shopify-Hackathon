@@ -16,15 +16,15 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<MentorPage1 />}></Route>
-          <Route path='' element={<MentorPage2 />}></Route>
-          <Route path='' element={<MentorPage3 />}></Route>
-          <Route path='' element={<MentorPage4 />}></Route>
-          <Route path='/mentorchat' element={<MentorPage5 />}></Route>
-          <Route path='' element={<MentorPage6 />}></Route>
-          <Route path='' element={<MentorPage7 />}></Route>
-          <Route path='' element={<MentorPage8 />}></Route>
-          <Route path='' element={<MentorPage9 />}></Route>
+          <Route path="/" element={<MentorPage1 />}></Route>
+          <Route path="" element={<MentorPage2 />}></Route>
+          <Route path="" element={<MentorPage3 />}></Route>
+          <Route path="" element={<MentorPage4 />}></Route>
+          <Route path="/mentorchat" element={<MentorPage5 />}></Route>
+          <Route path="" element={<MentorPage6 />}></Route>
+          <Route path="" element={<MentorPage7 />}></Route>
+          <Route path="" element={<MentorPage8 />}></Route>
+          <Route path="" element={<MentorPage9 />}></Route>
         </Routes>
       </BrowserRouter>
     </div>
