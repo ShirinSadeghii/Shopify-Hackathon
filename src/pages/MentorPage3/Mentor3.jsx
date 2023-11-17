@@ -10,7 +10,6 @@ function MentorPage3() {
                 <MessageForm />
                 <Buttons />
              </div>
-            
         </div>
        
     )
