@@ -10,11 +10,11 @@ function MentorPage1() {
         <div className="mentorPage1Container">
           {/* could wording below use some grammar adjustments? */}
           <h1 className="mentorPage1Container__titleText">
-            Let's find a few suitable mentors for you.
+            Let’s find a suitable mentor for you.
           </h1>
           <h2 className="mentorPage1Container__introText">
-            Get matches in a few easy steps. We'll help ensure the mentors are
-            relevant to you, and having upcoming availabilities
+            Get matches in a few easy steps. We’ll help ensure the mentors who
+            have been through the merchant process before!
           </h2>
           <p className="mentorPage1Container__goalText">
             What's your top goal right now?
